@@ -69,7 +69,7 @@ pod "iOS-Check-Permission"
 
 ## Author
 
-Douglas Frari, douglas.frari@gmail.com
+Douglas Frari - http://www.twitter.com/douglasddf (twitter)
 
 ## License
 
