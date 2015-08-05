@@ -1,0 +1,6 @@
+framework module iOS_Check_Permission {
+  umbrella header "iOS-Check-Permission-umbrella.h"
+
+  export *
+  module * { export * }
+}
