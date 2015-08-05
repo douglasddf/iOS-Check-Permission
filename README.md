@@ -59,8 +59,7 @@ There are 7 methods to use in the library:
                             failureBlock:(void (^) (void))failureBlock
         authorizationStatusNotDetermined:(void(^)(void))statusNotDeterminedBlock;
         
-- (void)checkPermissionAccessForLocation:(CLLocationManager *)locationManager
-                                          authorizeRequestType: (enum AuthorizeRequestType) type
+- (void)checkPermissionAccessForLocation:(enum AuthorizeRequestType) type
                                                   successBlock:(void (^) (void))successBlock
                                                   failureBlock:(void (^) (void))failureBlock;
         
