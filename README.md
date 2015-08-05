@@ -37,6 +37,8 @@ There are 7 methods to use in the library:
 </pre>
 
 
+## CocoaPod
+
 [![CI Status](http://img.shields.io/travis/Douglas Frari/iOS-Check-Permission.svg?style=flat)](https://travis-ci.org/Douglas Frari/iOS-Check-Permission)
 [![Version](https://img.shields.io/cocoapods/v/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
 [![License](https://img.shields.io/cocoapods/l/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
