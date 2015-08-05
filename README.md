@@ -1,10 +1,19 @@
-# iOS-Check-Permission
+##iOS-Check-Permission
 
 See more on Youtube video:
 
 - https://www.youtube.com/watch?v=JxdlaEp6dC0
 
 <a href="https://www.youtube.com/embed/JxdlaEp6dC0"><img src="screenshot3.png" width="800"></a>
+
+<img src="screenshot01.png" width="400">
+
+Requests permission to access the iOS (Calendar, Reminder, Gallery and Location), with
+ option of receive the notification of the status not determined until receive the user's permission.
+
+##Example of use:
+
+<img src="screenshot02.png" width="800"> 
 
 There are 7 methods to use in the library:
 
@@ -48,7 +57,6 @@ There are 7 methods to use in the library:
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -61,18 +69,9 @@ pod "iOS-Check-Permission"
 
 ## Author
 
-Douglas Frari, douglas.frari@gmail.com
+Douglas Frari - http://www.twitter.com/douglasddf (twitter)
 
 ## License
 
 iOS-Check-Permission is available under the MIT license. See the LICENSE file for more info.
 
-
-<img src="screenshot01.png" width="400">
-
-Requests permission to access the iOS (Calendar, Reminder, Gallery and Location), with
- option of receive the notification of the status not determined until receive the user's permission.
-
-Example of use:
-
-<img src="screenshot02.png" width="800"> 
