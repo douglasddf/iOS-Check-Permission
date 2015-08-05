@@ -1,0 +1,6 @@
+framework module Pods_iOS_Check_Permission_Tests {
+  umbrella header "Pods-iOS-Check-Permission_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

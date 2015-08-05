@@ -38,7 +38,7 @@ DESC
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'iOS-Check-Permission' => ['Pod/Assets/*.png']
+    'iOSCheckPermission' => ['Pod/Assets/*.png']
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
