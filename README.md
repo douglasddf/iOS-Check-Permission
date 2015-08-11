@@ -1,5 +1,7 @@
 ##iOS-Check-Permission
 
+With this library you can request permission from camera features, reminders, calendar and location (GPS support). When requesting the resource use the library responds by using iOS blocks with authorized or denied access.
+
 See more on Youtube video:
 
 - https://www.youtube.com/watch?v=JxdlaEp6dC0
@@ -17,10 +19,10 @@ Requests permission to access the iOS (Calendar, Reminder, Gallery and Location)
 
 There are 7 methods to use in the library:
 
-<pre>
+```objective-c
 - (void)checkPermissionAccessForCalendar:(void(^)(void))successBlock 
                              failureBlock:(void(^)(void))failureBlock;
-                           
+
 - (void)checkPermissionAccessForCalendar:(void(^)(void))successBlock
                            failureBlock:(void(^)(void))failureBlock
        authorizationStatusNotDetermined:(void(^)(void))statusNotDeterminedBlock;
@@ -38,12 +40,11 @@ There are 7 methods to use in the library:
 - (void)checkPermissionAccessForGallery:(void (^) (void))successBlock
                             failureBlock:(void (^) (void))failureBlock
         authorizationStatusNotDetermined:(void(^)(void))statusNotDeterminedBlock;
-        
+ 
 - (void)checkPermissionAccessForLocation:(enum AuthorizeRequestType) type
                                                   successBlock:(void (^) (void))successBlock
                                                   failureBlock:(void (^) (void))failureBlock;
-        
-</pre>
+```
 
 
 ## CocoaPod
