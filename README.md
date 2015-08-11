@@ -1,6 +1,6 @@
 ##iOS-Check-Permission
 
-With this library you can request permission from camera features, reminders, calendar and location (GPS support). When requesting the resource use the library responds by using iOS blocks with authorized or denied access.
+With this library you can request permission from camera features, reminders, gallery and location (GPS support). When requesting the resource use the library responds by using iOS blocks with authorized or denied access.
 
 See more on Youtube video:
 
