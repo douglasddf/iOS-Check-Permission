@@ -25,7 +25,7 @@
 #import "DFViewController.h"
 #import "IOSCheckPermissions.h" // <-- import the iOS-Check-Permission library
 
-@interface DFViewController ()
+@interface DFViewController () <CLLocationManagerDelegate>
 
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
@@ -123,17 +123,17 @@
      - AuthorizeRequestTypeWhenInUseAuthorization
      */
     [[IOSCheckPermissions globalInstance] checkPermissionAccessForLocation: AuthorizeRequestTypeWhenInUseAuthorization
-                                                              successBlock:^{
+                  successBlock:^{
                                                                   
-                                                                  // SUCCESS
-                                                                  [owner showAlertWithText:@"Success permission for 'Location' :)" hasDelegate:nil];
-                                                                  
-                                                                  [owner.locationManager startUpdatingLocation];
-                                                                  
-                                                              } failureBlock:^{
-                                                                  // PERMISSION DENIED
-                                                                  [owner showAlertWithText:@"Your privacy settings are preventing us from accessing yours 'Location'." hasDelegate:owner];
-                                                              }];
+                      // SUCCESS
+                      [owner showAlertWithText:@"Success permission for 'Location' :)" hasDelegate:nil];
+                      [owner.locationManager startUpdatingLocation];
+                      
+                  } failureBlock:^{
+                      
+                      // PERMISSION DENIED
+                      [owner showAlertWithText:@"Your privacy settings are preventing us from accessing yours 'Location'." hasDelegate:owner];
+                  }];
 }
 
 #pragma mark <Private Methods>
@@ -151,7 +151,6 @@
         [alert show];
         
     });
-    
 }
 
 
@@ -172,6 +171,15 @@
     
     if ([locations count] > 0) {
         NSLog(@"-->> User CLLocationManagerDelegate -->  %@",[locations[0] description]);
+    }
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+    didUpdateToLocation:(CLLocation *)newLocation
+           fromLocation:(CLLocation *)oldLocation {
+    
+    if (newLocation) {
+        NSLog(@"-- ## locationManager ## -->  %@",[newLocation description]);
     }
 }
 
