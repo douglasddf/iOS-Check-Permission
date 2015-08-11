@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "iOS-Check-Permission"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Permits the user request for permission access the iOS (Calendar , Reminder, Gallery and Location)"
   s.description      = <<-DESC
 **iOS Check Permissions**
