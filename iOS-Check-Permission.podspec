@@ -22,6 +22,8 @@ through the permissions to authorize the use of resources such as:
 - Reminder
 - Location
 
+<img src="http://i.giflike.com/FKLOTzK.gif">
+
 See more on Youtube video:
 
 - https://www.youtube.com/watch?v=JxdlaEp6dC0
