@@ -70,6 +70,12 @@ it, simply add the following line to your Podfile:
 pod "iOS-Check-Permission"
 ```
 
+For download the Demo sample example, use: 
+
+```ruby
+pod try iOS-Check-Permission
+```
+
 ## Author
 
 Douglas Frari - http://www.twitter.com/douglasddf (twitter)
