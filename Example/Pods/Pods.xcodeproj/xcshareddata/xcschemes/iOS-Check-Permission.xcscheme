@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CA47035801EA3E301997B858"
+               BlueprintIdentifier = "9198213F36231BE04701D0A5"
                BuildableName = "iOS_Check_Permission.framework"
                BlueprintName = "iOS-Check-Permission"
                ReferencedContainer = "container:Pods.xcodeproj">
