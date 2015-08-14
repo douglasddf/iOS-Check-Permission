@@ -5,11 +5,11 @@
 # Any lines starting with a # are optional, but encouraged
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
+
 
 Pod::Spec.new do |s|
   s.name             = "iOS-Check-Permission"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Permits the user request for permission access the iOS (Calendar , Reminder, Gallery and Location)"
   s.description      = <<-DESC
 **iOS Check Permissions**
