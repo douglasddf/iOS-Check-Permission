@@ -2,6 +2,20 @@
 
 With this library you can request permission from camera features, reminders, gallery and location (GPS support). When requesting the resource use the library responds by using iOS blocks with authorized or denied access.
 
+## CocoaPod
+
+[![CI Status](http://img.shields.io/travis/Douglas Frari/iOS-Check-Permission.svg?style=flat)](https://travis-ci.org/Douglas Frari/iOS-Check-Permission)
+[![Version](https://img.shields.io/cocoapods/v/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
+[![License](https://img.shields.io/cocoapods/l/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
+[![Platform](https://img.shields.io/cocoapods/p/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
+
+
+## Requirements
+
+```ruby
+iOS 8 or higher
+```
+
 <img src="http://i.giflike.com/FKLOTzK.gif">
 
 #See more on Youtube video:
@@ -46,21 +60,6 @@ There are 7 methods to use in the library:
 - (void)checkPermissionAccessForLocation:(enum AuthorizeRequestType) type
                                                   successBlock:(void (^) (void))successBlock
                                                   failureBlock:(void (^) (void))failureBlock;
-```
-
-
-## CocoaPod
-
-[![CI Status](http://img.shields.io/travis/Douglas Frari/iOS-Check-Permission.svg?style=flat)](https://travis-ci.org/Douglas Frari/iOS-Check-Permission)
-[![Version](https://img.shields.io/cocoapods/v/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
-[![License](https://img.shields.io/cocoapods/l/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
-[![Platform](https://img.shields.io/cocoapods/p/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
-
-
-# Requirements
-
-```ruby
-iOS 8 or higher
 ```
 
 ## Usage
