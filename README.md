@@ -56,6 +56,13 @@ There are 7 methods to use in the library:
 [![License](https://img.shields.io/cocoapods/l/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
 [![Platform](https://img.shields.io/cocoapods/p/iOS-Check-Permission.svg?style=flat)](http://cocoapods.org/pods/iOS-Check-Permission)
 
+
+# Requirements
+
+```ruby
+iOS 8 or higher
+```
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
