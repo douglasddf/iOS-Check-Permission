@@ -1,5 +1,5 @@
 PODS:
-  - iOS-Check-Permission (0.1.1)
+  - iOS-Check-Permission (0.1.2)
 
 DEPENDENCIES:
   - iOS-Check-Permission (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  iOS-Check-Permission: b3bed8605c5a5e94400161543eae7c75326c45dd
+  iOS-Check-Permission: 34bf767ce679ac9bd69ae69362cd4dd5af76e672
 
 COCOAPODS: 0.38.2
