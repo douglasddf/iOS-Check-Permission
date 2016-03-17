@@ -7,146 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B9FF107A01B66AF0A656677254224DC /* IOSCheckPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 654FCEC9367DB094C39FB847435F07AF /* IOSCheckPermissions.m */; };
-		3B4FE9369FD0472DFF44B7AE0E16E277 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3778B29B49E65421F2355D62A70B426A /* AssetsLibrary.framework */; };
-		4BBB09C678E4C5D464D2AA464030C493 /* Pods-iOS-Check-Permission_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65421F6BCA6757E4DECC3BE118B5FF33 /* Pods-iOS-Check-Permission_Example-dummy.m */; };
-		4E575344423A2870884D5837A7A36317 /* iOS-Check-Permission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB945803A174417484AAE1AFB0EC669 /* iOS-Check-Permission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5607A256A2EDE5A41AC03F02B9E3CFE3 /* Pods-iOS-Check-Permission_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73940C0CA1F3DE59A66D9DF65BDB649C /* Pods-iOS-Check-Permission_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CBEAA6B28E5A8E3F873FAA3D5DEAA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED77DC0BFA86932523CD14F58F503AF /* Foundation.framework */; };
-		6770F3E8E57E7DC9C6F636D5C77F8061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED77DC0BFA86932523CD14F58F503AF /* Foundation.framework */; };
-		827E17BA6F277EA45C3C7C18EB22A616 /* Pods-iOS-Check-Permission_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C225C84EEA20D4A7C136C9AB8418D08 /* Pods-iOS-Check-Permission_Tests-dummy.m */; };
-		A01B896B393B3E21B5E5CA8C1BA41363 /* Pods-iOS-Check-Permission_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6881C6B7E224B19425B237B8D8D4F2 /* Pods-iOS-Check-Permission_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3F1AEEF8EE62E9582EBEF6012914F20 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DC071A9CA1E9763263727A1415FE93 /* CoreLocation.framework */; };
-		D80F8C95CAA578E406120EEA7B4EAFBF /* iOSCheckPermission.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 63CB364193682F0501E54027C774D82C /* iOSCheckPermission.bundle */; };
-		DC26D8AD7D4FCE90105F7C33600E7B7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05E7F69F7750252FD7443EB9D5D9AE1 /* UIKit.framework */; };
-		E3F94B096D0A87619F273ED30E566B34 /* IOSCheckPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F54A63D39F49A3DC8E26A2D26AF0A5 /* IOSCheckPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8DD7FF046C9A3FBE6852E90759EE60D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED77DC0BFA86932523CD14F58F503AF /* Foundation.framework */; };
-		EE824806DA3219FF2AB949533B0474FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33664E341EBE8E3F87C84E47178E8F93 /* AVFoundation.framework */; };
-		EF20DFCE9044CB50E3307A7ACF2BA0D7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1777AD410FF30D2A9AF25F0B445D7B8 /* EventKit.framework */; };
-		F7D17F304154CCD26ECCD23CC14AC376 /* iOS-Check-Permission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17574FDA89D256FE5C86D949F29971AB /* iOS-Check-Permission-dummy.m */; };
+		147CDA9DAC5C4075D5C48B64A294DB9A /* iOSCheckPermission.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F70639D0A07C0599953C293B63436E /* iOSCheckPermission.bundle */; };
+		2A308AB41C49CA73AB83C6B5172C069F /* Pods-iOS-Check-Permission_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2D088F3C5C0CB2AB79338A8A4872D0 /* Pods-iOS-Check-Permission_Tests-dummy.m */; };
+		2AD20F876F12F079E28395F2C2737B86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487CB269E1BD836C68ECB827341CFB0B /* AVFoundation.framework */; };
+		2B63751828FE93B2FC11A424F8D9C529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10404838769FCE1E64FFF15B80FB10D3 /* Foundation.framework */; };
+		31B3AA81909D612C9112093DBDDA6DFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141C5C42D194F2894D22CE40400ACCB6 /* CoreLocation.framework */; };
+		458FF730D3AD8F8B384502E1B2495265 /* Pods-iOS-Check-Permission_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C88F8D127498074C7B953C45A4F5C /* Pods-iOS-Check-Permission_Example-dummy.m */; };
+		66A87E79CD0A21105067A5D057EAC347 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10404838769FCE1E64FFF15B80FB10D3 /* Foundation.framework */; };
+		75B0E2E88DAB6B86CDC3560151DBEE42 /* IOSCheckPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6A1E21AE4BF2CB1466304093C0447E /* IOSCheckPermissions.m */; };
+		9C05262F0643A9CEEDB562304ADB2F04 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C1ABC6C0396AD0A33BD063E1DB58E2 /* EventKit.framework */; };
+		A77175FED053E68D292998B19A27B837 /* iOS-Check-Permission-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A95222F5B454F47AEABC2E07580B6D /* iOS-Check-Permission-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC67E2E46EB683BB947750AB70C8357D /* Pods-iOS-Check-Permission_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E405DD80EF697AF0AAEE10A13B4735 /* Pods-iOS-Check-Permission_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C69B87656BDD081AD50743ABA37351 /* iOS-Check-Permission-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DB7EEB1B02FB3720286462A07714F5 /* iOS-Check-Permission-dummy.m */; };
+		C1ACD458EFC043010AC45690E9700CE6 /* IOSCheckPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ADBC0B68B4F2488B093441577EE44F /* IOSCheckPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C65F48D650A8291DA20FBAB3F386A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8F1350119AA8E53BCBC7B0A86DB14E /* UIKit.framework */; };
+		DDA66AC34AF8E3F062741E7D95871C2B /* Pods-iOS-Check-Permission_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9276A2E81D02A06AFE21823D6A01E047 /* Pods-iOS-Check-Permission_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3CCBB5A796BF3BBBB24DD73342DC063 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E71E57BE2EA98EB4509B6BAA24BA961 /* AssetsLibrary.framework */; };
+		F78350C79C609ABB98B9D91FEE17BDEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10404838769FCE1E64FFF15B80FB10D3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28E1BC408F1A67C2B81904D3ED247642 /* PBXContainerItemProxy */ = {
+		4E8995576B13485B4B533D20B07CE3DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73D25380F8618218F8AA4A5DE5A7FB65;
-			remoteInfo = "iOS-Check-Permission";
-		};
-		969B5D72560141F716401E012C7D5ADB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73D25380F8618218F8AA4A5DE5A7FB65;
-			remoteInfo = "iOS-Check-Permission";
-		};
-		F5F906D22DE0DB3967E14B1DC58DE320 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C71B8BC238E3A2FA82E81A72F01A3C04;
+			remoteGlobalIDString = 720946D79368C93D960E99A195C7BBA1;
 			remoteInfo = "iOS-Check-Permission-iOSCheckPermission";
+		};
+		CBF21D00FC26DE503876E3302D2D9FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68A895DB8E435C9414D526BA0BB442D4;
+			remoteInfo = "iOS-Check-Permission";
+		};
+		F0C57ECA806410E5004F9B0C97362903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68A895DB8E435C9414D526BA0BB442D4;
+			remoteInfo = "iOS-Check-Permission";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17574FDA89D256FE5C86D949F29971AB /* iOS-Check-Permission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Check-Permission-dummy.m"; sourceTree = "<group>"; };
+		01ADBC0B68B4F2488B093441577EE44F /* IOSCheckPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IOSCheckPermissions.h; sourceTree = "<group>"; };
+		10404838769FCE1E64FFF15B80FB10D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		141C5C42D194F2894D22CE40400ACCB6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		17C5E0E60E44FDDD1876F683A0375F01 /* Pods-iOS-Check-Permission_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Check-Permission_Example-frameworks.sh"; sourceTree = "<group>"; };
+		17E405DD80EF697AF0AAEE10A13B4735 /* Pods-iOS-Check-Permission_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Check-Permission_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1B6C88F8D127498074C7B953C45A4F5C /* Pods-iOS-Check-Permission_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Check-Permission_Example-dummy.m"; sourceTree = "<group>"; };
 		1E3F34B28B660118B44FE9DDAEBBA03E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F0FE2C990F098F026E15391C85F5473 /* Pods-iOS-Check-Permission_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Check-Permission_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2421881C0587FB49D63F24AE26D64E0F /* Pods-iOS-Check-Permission_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		27462F8E4EBB5A13077EEB73E383E0F9 /* Pods-iOS-Check-Permission_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Check-Permission_Example-resources.sh"; sourceTree = "<group>"; };
 		288873574B8B2D56E77BF09A141060A4 /* Pods-iOS-Check-Permission_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Check-Permission_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ED77DC0BFA86932523CD14F58F503AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33664E341EBE8E3F87C84E47178E8F93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		3778B29B49E65421F2355D62A70B426A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
-		3C9AFC99BA2B348D6885CE55038467C2 /* iOS-Check-Permission-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Check-Permission-Private.xcconfig"; sourceTree = "<group>"; };
+		2A6A1E21AE4BF2CB1466304093C0447E /* IOSCheckPermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IOSCheckPermissions.m; sourceTree = "<group>"; };
+		30218B3341C4D72E6A5C08BD47E37151 /* Pods-iOS-Check-Permission_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3D16AB4BA3AE6DE11EFD174857278A8B /* iOS-Check-Permission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "iOS-Check-Permission.modulemap"; sourceTree = "<group>"; };
 		3EA2ADE122CB64DFC6AB8C3FBAFB0F93 /* Pods-iOS-Check-Permission_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOS-Check-Permission_Example.modulemap"; sourceTree = "<group>"; };
-		40DC071A9CA1E9763263727A1415FE93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		4AC5EE0C28FB62928A2CBAA2277A8428 /* iOS_Check_Permission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_Check_Permission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487CB269E1BD836C68ECB827341CFB0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		4961A03AC54774C04C9E30ADC24B77E0 /* Pods_iOS_Check_Permission_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Check_Permission_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E992CE2DE5E6D1345DFD49634333D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DFAE3CA362556707D3552C6348C35FC /* Pods-iOS-Check-Permission_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOS-Check-Permission_Tests.modulemap"; sourceTree = "<group>"; };
-		4E4395BEFA9F446BED84E026EC3406D4 /* Pods-iOS-Check-Permission_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E71E57BE2EA98EB4509B6BAA24BA961 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		54C1ABC6C0396AD0A33BD063E1DB58E2 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
 		62017CFAF9A117E5B850DF08A31150CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63CB364193682F0501E54027C774D82C /* iOSCheckPermission.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCheckPermission.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		65421F6BCA6757E4DECC3BE118B5FF33 /* Pods-iOS-Check-Permission_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Check-Permission_Example-dummy.m"; sourceTree = "<group>"; };
-		654FCEC9367DB094C39FB847435F07AF /* IOSCheckPermissions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IOSCheckPermissions.m; sourceTree = "<group>"; };
-		68A63A1CDAD38613322EE98321DB3EB2 /* iOS-Check-Permission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Check-Permission-prefix.pch"; sourceTree = "<group>"; };
+		6368E7DFF9F1C39C42063C5F2BAE4DDA /* Pods-iOS-Check-Permission_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6581AFFA57ED50D2CB74479410F4F922 /* iOS_Check_Permission.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_Check_Permission.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2F2EECB26F2AFAA6C842F4C5E95871 /* Pods-iOS-Check-Permission_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Check-Permission_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6DC41E1D53400FA9ADCE99F5C7E59021 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73940C0CA1F3DE59A66D9DF65BDB649C /* Pods-iOS-Check-Permission_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Check-Permission_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7BB945803A174417484AAE1AFB0EC669 /* iOS-Check-Permission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Check-Permission-umbrella.h"; sourceTree = "<group>"; };
-		7C225C84EEA20D4A7C136C9AB8418D08 /* Pods-iOS-Check-Permission_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Check-Permission_Tests-dummy.m"; sourceTree = "<group>"; };
-		85701418228C58805FC73EAA68D81AA7 /* Pods_iOS_Check_Permission_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Check_Permission_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6881C6B7E224B19425B237B8D8D4F2 /* Pods-iOS-Check-Permission_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Check-Permission_Example-umbrella.h"; sourceTree = "<group>"; };
-		90F3B51BF96BEBB8CE181FA9BE847490 /* iOS-Check-Permission.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Check-Permission.xcconfig"; sourceTree = "<group>"; };
-		9CB9C9F082938163ECA779ADA61ECDF7 /* Pods_iOS_Check_Permission_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Check_Permission_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FE55F8A5D0C58F11793B09231E6DCDA /* Pods-iOS-Check-Permission_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6C8F1350119AA8E53BCBC7B0A86DB14E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		733CECF9433D84C92A7CCD1B0F0031DB /* iOS-Check-Permission-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Check-Permission-prefix.pch"; sourceTree = "<group>"; };
+		73A95222F5B454F47AEABC2E07580B6D /* iOS-Check-Permission-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Check-Permission-umbrella.h"; sourceTree = "<group>"; };
+		74F70639D0A07C0599953C293B63436E /* iOSCheckPermission.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCheckPermission.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9276A2E81D02A06AFE21823D6A01E047 /* Pods-iOS-Check-Permission_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-Check-Permission_Example-umbrella.h"; sourceTree = "<group>"; };
+		94DB7EEB1B02FB3720286462A07714F5 /* iOS-Check-Permission-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Check-Permission-dummy.m"; sourceTree = "<group>"; };
 		A59C884089FA4077916725D217F1ED80 /* Pods-iOS-Check-Permission_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Check-Permission_Tests-resources.sh"; sourceTree = "<group>"; };
-		B9BD1332762D0BB4110C7C795F11D89C /* Pods-iOS-Check-Permission_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1D7553B54783F1EE46A84C69AF33FC /* Pods-iOS-Check-Permission_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF6A323A74FFE58772C05ACA8C8443DF /* Pods_iOS_Check_Permission_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Check_Permission_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0A868214EA2CAA1B2EF9C47B7CEB78A /* iOS-Check-Permission.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "iOS-Check-Permission.modulemap"; sourceTree = "<group>"; };
-		C9F54A63D39F49A3DC8E26A2D26AF0A5 /* IOSCheckPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IOSCheckPermissions.h; sourceTree = "<group>"; };
-		D1777AD410FF30D2A9AF25F0B445D7B8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF2D088F3C5C0CB2AB79338A8A4872D0 /* Pods-iOS-Check-Permission_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Check-Permission_Tests-dummy.m"; sourceTree = "<group>"; };
 		DEB9F3BF1CDB98235576FABC5C27A760 /* Pods-iOS-Check-Permission_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Check-Permission_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF15F6C22F6AA17E812D925A40F2CD3B /* Pods-iOS-Check-Permission_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Check-Permission_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E05E7F69F7750252FD7443EB9D5D9AE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAFF6948EE8BA51CC7EBC1A0702391BF /* Pods-iOS-Check-Permission_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Check-Permission_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1CB8C1E5B57D06847833714527E944 /* iOS-Check-Permission.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Check-Permission.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DAFBD40217FAAE5527D316663958B0A /* Frameworks */ = {
+		0761F466EF6795B82F81FAC2A954F177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CBEAA6B28E5A8E3F873FAA3D5DEAA47 /* Foundation.framework in Frameworks */,
+				2B63751828FE93B2FC11A424F8D9C529 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E47199699A26D7257E7D030EBC88472 /* Frameworks */ = {
+		A84384D2E5F722DF4F1A1DB5F698A176 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE824806DA3219FF2AB949533B0474FD /* AVFoundation.framework in Frameworks */,
-				3B4FE9369FD0472DFF44B7AE0E16E277 /* AssetsLibrary.framework in Frameworks */,
-				C3F1AEEF8EE62E9582EBEF6012914F20 /* CoreLocation.framework in Frameworks */,
-				EF20DFCE9044CB50E3307A7ACF2BA0D7 /* EventKit.framework in Frameworks */,
-				E8DD7FF046C9A3FBE6852E90759EE60D /* Foundation.framework in Frameworks */,
-				DC26D8AD7D4FCE90105F7C33600E7B7D /* UIKit.framework in Frameworks */,
+				E3CCBB5A796BF3BBBB24DD73342DC063 /* AssetsLibrary.framework in Frameworks */,
+				2AD20F876F12F079E28395F2C2737B86 /* AVFoundation.framework in Frameworks */,
+				31B3AA81909D612C9112093DBDDA6DFD /* CoreLocation.framework in Frameworks */,
+				9C05262F0643A9CEEDB562304ADB2F04 /* EventKit.framework in Frameworks */,
+				F78350C79C609ABB98B9D91FEE17BDEC /* Foundation.framework in Frameworks */,
+				D9C65F48D650A8291DA20FBAB3F386A7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACBA55B3A8697BBDC1F6B07CE69F78CC /* Frameworks */ = {
+		C94D47B85F0C5368F10A92720179C138 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A87E79CD0A21105067A5D057EAC347 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C752F7A81D7B1A910AEF5B5C79C6F842 /* Frameworks */ = {
+		CF3ED5EA5AF621E388960EBF117F9828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6770F3E8E57E7DC9C6F636D5C77F8061 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06E7E38370F213F4984A16015DBE4818 /* iOS-Check-Permission */ = {
-			isa = PBXGroup;
-			children = (
-				7AA19FE60D6ADAD376228CD03E6775A4 /* Pod */,
-				624BA8454879C85275AED4885877E161 /* Support Files */,
-			);
-			name = "iOS-Check-Permission";
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E968E637A7B4793F1C451E75576894F /* iOS */,
+				ECAE5ABB6DD9943A5C6F7A078A2B1C3B /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,45 +143,30 @@
 		24636022556C2C5E58853C275EA32F8E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06E7E38370F213F4984A16015DBE4818 /* iOS-Check-Permission */,
+				3995A49CA2DDD9035A87DF85E0904419 /* iOS-Check-Permission */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4E968E637A7B4793F1C451E75576894F /* iOS */ = {
+		3995A49CA2DDD9035A87DF85E0904419 /* iOS-Check-Permission */ = {
 			isa = PBXGroup;
 			children = (
-				33664E341EBE8E3F87C84E47178E8F93 /* AVFoundation.framework */,
-				3778B29B49E65421F2355D62A70B426A /* AssetsLibrary.framework */,
-				40DC071A9CA1E9763263727A1415FE93 /* CoreLocation.framework */,
-				D1777AD410FF30D2A9AF25F0B445D7B8 /* EventKit.framework */,
-				2ED77DC0BFA86932523CD14F58F503AF /* Foundation.framework */,
-				E05E7F69F7750252FD7443EB9D5D9AE1 /* UIKit.framework */,
+				D55B326AD51814825EC8B9FF8D447EAF /* Pod */,
+				B2A32909233FECC6A6F8AC063B7C60AF /* Support Files */,
 			);
-			name = iOS;
+			name = "iOS-Check-Permission";
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		624BA8454879C85275AED4885877E161 /* Support Files */ = {
+		5709800236F4C83BAC10D6B16AD57BF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DC41E1D53400FA9ADCE99F5C7E59021 /* Info.plist */,
-				C0A868214EA2CAA1B2EF9C47B7CEB78A /* iOS-Check-Permission.modulemap */,
-				90F3B51BF96BEBB8CE181FA9BE847490 /* iOS-Check-Permission.xcconfig */,
-				3C9AFC99BA2B348D6885CE55038467C2 /* iOS-Check-Permission-Private.xcconfig */,
-				17574FDA89D256FE5C86D949F29971AB /* iOS-Check-Permission-dummy.m */,
-				68A63A1CDAD38613322EE98321DB3EB2 /* iOS-Check-Permission-prefix.pch */,
-				7BB945803A174417484AAE1AFB0EC669 /* iOS-Check-Permission-umbrella.h */,
+				6581AFFA57ED50D2CB74479410F4F922 /* iOS_Check_Permission.framework */,
+				74F70639D0A07C0599953C293B63436E /* iOSCheckPermission.bundle */,
+				AF6A323A74FFE58772C05ACA8C8443DF /* Pods_iOS_Check_Permission_Example.framework */,
+				4961A03AC54774C04C9E30ADC24B77E0 /* Pods_iOS_Check_Permission_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/iOS-Check-Permission";
-			sourceTree = "<group>";
-		};
-		7AA19FE60D6ADAD376228CD03E6775A4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				90CFA01B319BC39182EF03984E9CE06A /* Classes */,
-			);
-			path = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -201,18 +175,9 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				24636022556C2C5E58853C275EA32F8E /* Development Pods */,
 				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				5709800236F4C83BAC10D6B16AD57BF1 /* Products */,
 				B15C2D549DC893839025744A4F427C96 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		90CFA01B319BC39182EF03984E9CE06A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C9F54A63D39F49A3DC8E26A2D26AF0A5 /* IOSCheckPermissions.h */,
-				654FCEC9367DB094C39FB847435F07AF /* IOSCheckPermissions.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		91DBCE405F8DA20586D07FEB7807C1E1 /* Pods-iOS-Check-Permission_Example */ = {
@@ -222,12 +187,12 @@
 				3EA2ADE122CB64DFC6AB8C3FBAFB0F93 /* Pods-iOS-Check-Permission_Example.modulemap */,
 				DEB9F3BF1CDB98235576FABC5C27A760 /* Pods-iOS-Check-Permission_Example-acknowledgements.markdown */,
 				288873574B8B2D56E77BF09A141060A4 /* Pods-iOS-Check-Permission_Example-acknowledgements.plist */,
-				65421F6BCA6757E4DECC3BE118B5FF33 /* Pods-iOS-Check-Permission_Example-dummy.m */,
+				1B6C88F8D127498074C7B953C45A4F5C /* Pods-iOS-Check-Permission_Example-dummy.m */,
 				17C5E0E60E44FDDD1876F683A0375F01 /* Pods-iOS-Check-Permission_Example-frameworks.sh */,
 				27462F8E4EBB5A13077EEB73E383E0F9 /* Pods-iOS-Check-Permission_Example-resources.sh */,
-				8F6881C6B7E224B19425B237B8D8D4F2 /* Pods-iOS-Check-Permission_Example-umbrella.h */,
-				EAFF6948EE8BA51CC7EBC1A0702391BF /* Pods-iOS-Check-Permission_Example.debug.xcconfig */,
-				9FE55F8A5D0C58F11793B09231E6DCDA /* Pods-iOS-Check-Permission_Example.release.xcconfig */,
+				9276A2E81D02A06AFE21823D6A01E047 /* Pods-iOS-Check-Permission_Example-umbrella.h */,
+				2421881C0587FB49D63F24AE26D64E0F /* Pods-iOS-Check-Permission_Example.debug.xcconfig */,
+				AD1D7553B54783F1EE46A84C69AF33FC /* Pods-iOS-Check-Permission_Example.release.xcconfig */,
 			);
 			name = "Pods-iOS-Check-Permission_Example";
 			path = "Target Support Files/Pods-iOS-Check-Permission_Example";
@@ -242,15 +207,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		B2A32909233FECC6A6F8AC063B7C60AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				85701418228C58805FC73EAA68D81AA7 /* Pods_iOS_Check_Permission_Example.framework */,
-				9CB9C9F082938163ECA779ADA61ECDF7 /* Pods_iOS_Check_Permission_Tests.framework */,
-				63CB364193682F0501E54027C774D82C /* iOSCheckPermission.bundle */,
-				4AC5EE0C28FB62928A2CBAA2277A8428 /* iOS_Check_Permission.framework */,
+				49E992CE2DE5E6D1345DFD49634333D3 /* Info.plist */,
+				3D16AB4BA3AE6DE11EFD174857278A8B /* iOS-Check-Permission.modulemap */,
+				FA1CB8C1E5B57D06847833714527E944 /* iOS-Check-Permission.xcconfig */,
+				94DB7EEB1B02FB3720286462A07714F5 /* iOS-Check-Permission-dummy.m */,
+				733CECF9433D84C92A7CCD1B0F0031DB /* iOS-Check-Permission-prefix.pch */,
+				73A95222F5B454F47AEABC2E07580B6D /* iOS-Check-Permission-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iOS-Check-Permission";
+			sourceTree = "<group>";
+		};
+		D55B326AD51814825EC8B9FF8D447EAF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E88DF49248CEB4936B2493F6B744659A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E88DF49248CEB4936B2493F6B744659A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01ADBC0B68B4F2488B093441577EE44F /* IOSCheckPermissions.h */,
+				2A6A1E21AE4BF2CB1466304093C0447E /* IOSCheckPermissions.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECAE5ABB6DD9943A5C6F7A078A2B1C3B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E71E57BE2EA98EB4509B6BAA24BA961 /* AssetsLibrary.framework */,
+				487CB269E1BD836C68ECB827341CFB0B /* AVFoundation.framework */,
+				141C5C42D194F2894D22CE40400ACCB6 /* CoreLocation.framework */,
+				54C1ABC6C0396AD0A33BD063E1DB58E2 /* EventKit.framework */,
+				10404838769FCE1E64FFF15B80FB10D3 /* Foundation.framework */,
+				6C8F1350119AA8E53BCBC7B0A86DB14E /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		F3DE69EBCC6F1845671DBDA1EA8148F1 /* Pods-iOS-Check-Permission_Tests */ = {
@@ -260,12 +258,12 @@
 				4DFAE3CA362556707D3552C6348C35FC /* Pods-iOS-Check-Permission_Tests.modulemap */,
 				1F0FE2C990F098F026E15391C85F5473 /* Pods-iOS-Check-Permission_Tests-acknowledgements.markdown */,
 				6C2F2EECB26F2AFAA6C842F4C5E95871 /* Pods-iOS-Check-Permission_Tests-acknowledgements.plist */,
-				7C225C84EEA20D4A7C136C9AB8418D08 /* Pods-iOS-Check-Permission_Tests-dummy.m */,
+				BF2D088F3C5C0CB2AB79338A8A4872D0 /* Pods-iOS-Check-Permission_Tests-dummy.m */,
 				DF15F6C22F6AA17E812D925A40F2CD3B /* Pods-iOS-Check-Permission_Tests-frameworks.sh */,
 				A59C884089FA4077916725D217F1ED80 /* Pods-iOS-Check-Permission_Tests-resources.sh */,
-				73940C0CA1F3DE59A66D9DF65BDB649C /* Pods-iOS-Check-Permission_Tests-umbrella.h */,
-				B9BD1332762D0BB4110C7C795F11D89C /* Pods-iOS-Check-Permission_Tests.debug.xcconfig */,
-				4E4395BEFA9F446BED84E026EC3406D4 /* Pods-iOS-Check-Permission_Tests.release.xcconfig */,
+				17E405DD80EF697AF0AAEE10A13B4735 /* Pods-iOS-Check-Permission_Tests-umbrella.h */,
+				6368E7DFF9F1C39C42063C5F2BAE4DDA /* Pods-iOS-Check-Permission_Tests.debug.xcconfig */,
+				30218B3341C4D72E6A5C08BD47E37151 /* Pods-iOS-Check-Permission_Tests.release.xcconfig */,
 			);
 			name = "Pods-iOS-Check-Permission_Tests";
 			path = "Target Support Files/Pods-iOS-Check-Permission_Tests";
@@ -274,96 +272,78 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1BE13D10B201C1875376C68A246D98F8 /* Headers */ = {
+		5D82E8F9615300E1A10808EE824E4191 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F94B096D0A87619F273ED30E566B34 /* IOSCheckPermissions.h in Headers */,
-				4E575344423A2870884D5837A7A36317 /* iOS-Check-Permission-umbrella.h in Headers */,
+				A77175FED053E68D292998B19A27B837 /* iOS-Check-Permission-umbrella.h in Headers */,
+				C1ACD458EFC043010AC45690E9700CE6 /* IOSCheckPermissions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F01197FA730C8F54BED20927F556E46 /* Headers */ = {
+		BF5F0D6868C909EFA20C365BEB3B8D3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01B896B393B3E21B5E5CA8C1BA41363 /* Pods-iOS-Check-Permission_Example-umbrella.h in Headers */,
+				AC67E2E46EB683BB947750AB70C8357D /* Pods-iOS-Check-Permission_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBBABCBEE995518082CDC95BD806E185 /* Headers */ = {
+		F50B2DFA6C12DE7EEC7498CD4C1FCEDE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5607A256A2EDE5A41AC03F02B9E3CFE3 /* Pods-iOS-Check-Permission_Tests-umbrella.h in Headers */,
+				DDA66AC34AF8E3F062741E7D95871C2B /* Pods-iOS-Check-Permission_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0813BFAC80845D73BA511AA3A24C57A5 /* Pods-iOS-Check-Permission_Tests */ = {
+		4DD8569BB564E34BDF09685E80630518 /* Pods-iOS-Check-Permission_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A8E5F7C34DFC487871B2EEFC96AE46A /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Tests" */;
+			buildConfigurationList = DE7E78EC0E3D204C927B1FC11C8A62EA /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Tests" */;
 			buildPhases = (
-				951150E1DA83D15BAD48E733741FDE70 /* Sources */,
-				C752F7A81D7B1A910AEF5B5C79C6F842 /* Frameworks */,
-				DBBABCBEE995518082CDC95BD806E185 /* Headers */,
+				2127450811AE24EC3122175470A376D3 /* Sources */,
+				C94D47B85F0C5368F10A92720179C138 /* Frameworks */,
+				BF5F0D6868C909EFA20C365BEB3B8D3B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				285461DE57AFA69CCAABFB22A496DDDE /* PBXTargetDependency */,
+				9D190360CE39F2F2CB9D3750BBE91B55 /* PBXTargetDependency */,
 			);
 			name = "Pods-iOS-Check-Permission_Tests";
 			productName = "Pods-iOS-Check-Permission_Tests";
-			productReference = 9CB9C9F082938163ECA779ADA61ECDF7 /* Pods_iOS_Check_Permission_Tests.framework */;
+			productReference = 4961A03AC54774C04C9E30ADC24B77E0 /* Pods_iOS_Check_Permission_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		73D25380F8618218F8AA4A5DE5A7FB65 /* iOS-Check-Permission */ = {
+		68A895DB8E435C9414D526BA0BB442D4 /* iOS-Check-Permission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E21F1A94F382AA2169F4B0ED348ACF5F /* Build configuration list for PBXNativeTarget "iOS-Check-Permission" */;
+			buildConfigurationList = E2FC8C63717ECD630B8E45F844211F0C /* Build configuration list for PBXNativeTarget "iOS-Check-Permission" */;
 			buildPhases = (
-				012BB1FB737852712D48B539A86EC129 /* Sources */,
-				4E47199699A26D7257E7D030EBC88472 /* Frameworks */,
-				260E432E9EEA1EB9FDE39AD1378273A9 /* Resources */,
-				1BE13D10B201C1875376C68A246D98F8 /* Headers */,
+				F202DF98CE64CD4CF4AD82FB82FE9A59 /* Sources */,
+				A84384D2E5F722DF4F1A1DB5F698A176 /* Frameworks */,
+				600CB2C2B583B1C1F2264A2F79E2B599 /* Resources */,
+				5D82E8F9615300E1A10808EE824E4191 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2EF7FF378964A9BBDD79D038FC95B9C5 /* PBXTargetDependency */,
+				56C69154BF843579EF0CDC8491718F0B /* PBXTargetDependency */,
 			);
 			name = "iOS-Check-Permission";
 			productName = "iOS-Check-Permission";
-			productReference = 4AC5EE0C28FB62928A2CBAA2277A8428 /* iOS_Check_Permission.framework */;
+			productReference = 6581AFFA57ED50D2CB74479410F4F922 /* iOS_Check_Permission.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C122C3A69362E4AFB34157C8A848EAE4 /* Pods-iOS-Check-Permission_Example */ = {
+		720946D79368C93D960E99A195C7BBA1 /* iOS-Check-Permission-iOSCheckPermission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED32C9806C85F5C4CDE38538B0D00586 /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Example" */;
+			buildConfigurationList = 7E728419C8005CB40940C1CD77EAB87A /* Build configuration list for PBXNativeTarget "iOS-Check-Permission-iOSCheckPermission" */;
 			buildPhases = (
-				556E030D578F36E91320675AA82D55A9 /* Sources */,
-				3DAFBD40217FAAE5527D316663958B0A /* Frameworks */,
-				8F01197FA730C8F54BED20927F556E46 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B2CAF56A4C1E065842CD30DE3AFDE2C /* PBXTargetDependency */,
-			);
-			name = "Pods-iOS-Check-Permission_Example";
-			productName = "Pods-iOS-Check-Permission_Example";
-			productReference = 85701418228C58805FC73EAA68D81AA7 /* Pods_iOS_Check_Permission_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C71B8BC238E3A2FA82E81A72F01A3C04 /* iOS-Check-Permission-iOSCheckPermission */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00B9B5E93C61AAAA6B8FDE4EE593D32D /* Build configuration list for PBXNativeTarget "iOS-Check-Permission-iOSCheckPermission" */;
-			buildPhases = (
-				99AFAEC2EAC2500EA403880E1E800B5E /* Sources */,
-				ACBA55B3A8697BBDC1F6B07CE69F78CC /* Frameworks */,
-				34F00C6B871F9C21412DAA5A8FA10D5D /* Resources */,
+				11D57C1DE0E7F30F485CB1B9C1A3DDFE /* Sources */,
+				CF3ED5EA5AF621E388960EBF117F9828 /* Frameworks */,
+				C36B095BDAB8060E5B8646443CEB809D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -371,8 +351,26 @@
 			);
 			name = "iOS-Check-Permission-iOSCheckPermission";
 			productName = "iOS-Check-Permission-iOSCheckPermission";
-			productReference = 63CB364193682F0501E54027C774D82C /* iOSCheckPermission.bundle */;
+			productReference = 74F70639D0A07C0599953C293B63436E /* iOSCheckPermission.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		BEB525462CE8A8968922C8E1A740689F /* Pods-iOS-Check-Permission_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77588A9539A1BDB76B7E68E1EB623E0D /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Example" */;
+			buildPhases = (
+				D4EA89832B1F688D8BD653048CAA7F44 /* Sources */,
+				0761F466EF6795B82F81FAC2A954F177 /* Frameworks */,
+				F50B2DFA6C12DE7EEC7498CD4C1FCEDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54B2ED5159724DF6A060820C2536BEBB /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS-Check-Permission_Example";
+			productName = "Pods-iOS-Check-Permission_Example";
+			productReference = AF6A323A74FFE58772C05ACA8C8443DF /* Pods_iOS_Check_Permission_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -391,28 +389,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 5709800236F4C83BAC10D6B16AD57BF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C122C3A69362E4AFB34157C8A848EAE4 /* Pods-iOS-Check-Permission_Example */,
-				0813BFAC80845D73BA511AA3A24C57A5 /* Pods-iOS-Check-Permission_Tests */,
-				73D25380F8618218F8AA4A5DE5A7FB65 /* iOS-Check-Permission */,
-				C71B8BC238E3A2FA82E81A72F01A3C04 /* iOS-Check-Permission-iOSCheckPermission */,
+				68A895DB8E435C9414D526BA0BB442D4 /* iOS-Check-Permission */,
+				720946D79368C93D960E99A195C7BBA1 /* iOS-Check-Permission-iOSCheckPermission */,
+				BEB525462CE8A8968922C8E1A740689F /* Pods-iOS-Check-Permission_Example */,
+				4DD8569BB564E34BDF09685E80630518 /* Pods-iOS-Check-Permission_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		260E432E9EEA1EB9FDE39AD1378273A9 /* Resources */ = {
+		600CB2C2B583B1C1F2264A2F79E2B599 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80F8C95CAA578E406120EEA7B4EAFBF /* iOSCheckPermission.bundle in Resources */,
+				147CDA9DAC5C4075D5C48B64A294DB9A /* iOSCheckPermission.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34F00C6B871F9C21412DAA5A8FA10D5D /* Resources */ = {
+		C36B095BDAB8060E5B8646443CEB809D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -422,148 +420,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		012BB1FB737852712D48B539A86EC129 /* Sources */ = {
+		11D57C1DE0E7F30F485CB1B9C1A3DDFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9FF107A01B66AF0A656677254224DC /* IOSCheckPermissions.m in Sources */,
-				F7D17F304154CCD26ECCD23CC14AC376 /* iOS-Check-Permission-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		556E030D578F36E91320675AA82D55A9 /* Sources */ = {
+		2127450811AE24EC3122175470A376D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBB09C678E4C5D464D2AA464030C493 /* Pods-iOS-Check-Permission_Example-dummy.m in Sources */,
+				2A308AB41C49CA73AB83C6B5172C069F /* Pods-iOS-Check-Permission_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		951150E1DA83D15BAD48E733741FDE70 /* Sources */ = {
+		D4EA89832B1F688D8BD653048CAA7F44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				827E17BA6F277EA45C3C7C18EB22A616 /* Pods-iOS-Check-Permission_Tests-dummy.m in Sources */,
+				458FF730D3AD8F8B384502E1B2495265 /* Pods-iOS-Check-Permission_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99AFAEC2EAC2500EA403880E1E800B5E /* Sources */ = {
+		F202DF98CE64CD4CF4AD82FB82FE9A59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C69B87656BDD081AD50743ABA37351 /* iOS-Check-Permission-dummy.m in Sources */,
+				75B0E2E88DAB6B86CDC3560151DBEE42 /* IOSCheckPermissions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		285461DE57AFA69CCAABFB22A496DDDE /* PBXTargetDependency */ = {
+		54B2ED5159724DF6A060820C2536BEBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS-Check-Permission";
-			target = 73D25380F8618218F8AA4A5DE5A7FB65 /* iOS-Check-Permission */;
-			targetProxy = 28E1BC408F1A67C2B81904D3ED247642 /* PBXContainerItemProxy */;
+			target = 68A895DB8E435C9414D526BA0BB442D4 /* iOS-Check-Permission */;
+			targetProxy = F0C57ECA806410E5004F9B0C97362903 /* PBXContainerItemProxy */;
 		};
-		2EF7FF378964A9BBDD79D038FC95B9C5 /* PBXTargetDependency */ = {
+		56C69154BF843579EF0CDC8491718F0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS-Check-Permission-iOSCheckPermission";
-			target = C71B8BC238E3A2FA82E81A72F01A3C04 /* iOS-Check-Permission-iOSCheckPermission */;
-			targetProxy = F5F906D22DE0DB3967E14B1DC58DE320 /* PBXContainerItemProxy */;
+			target = 720946D79368C93D960E99A195C7BBA1 /* iOS-Check-Permission-iOSCheckPermission */;
+			targetProxy = 4E8995576B13485B4B533D20B07CE3DE /* PBXContainerItemProxy */;
 		};
-		9B2CAF56A4C1E065842CD30DE3AFDE2C /* PBXTargetDependency */ = {
+		9D190360CE39F2F2CB9D3750BBE91B55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS-Check-Permission";
-			target = 73D25380F8618218F8AA4A5DE5A7FB65 /* iOS-Check-Permission */;
-			targetProxy = 969B5D72560141F716401E012C7D5ADB /* PBXContainerItemProxy */;
+			target = 68A895DB8E435C9414D526BA0BB442D4 /* iOS-Check-Permission */;
+			targetProxy = CBF21D00FC26DE503876E3302D2D9FF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		17554579467AFC9E5DD80EDE080665C9 /* Debug */ = {
+		489B48F553705C3D74CCC7A2F95CB1AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9AFC99BA2B348D6885CE55038467C2 /* iOS-Check-Permission-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOS-Check-Permission/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = iOS_Check_Permission;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1D4449F4EA809383FE22C1EA86339B3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9BD1332762D0BB4110C7C795F11D89C /* Pods-iOS-Check-Permission_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Pods-iOS-Check-Permission_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iOS_Check_Permission_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		201ABEF69E2CCC7ADC8D35D8806AA748 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9AFC99BA2B348D6885CE55038467C2 /* iOS-Check-Permission-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.2;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOS-Check-Permission/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = iOS_Check_Permission;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3F579517A9FD44D5FC53623BA1677DF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9AFC99BA2B348D6885CE55038467C2 /* iOS-Check-Permission-Private.xcconfig */;
+			baseConfigurationReference = FA1CB8C1E5B57D06847833714527E944 /* iOS-Check-Permission.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = iOSCheckPermission;
@@ -573,9 +488,21 @@
 			};
 			name = Release;
 		};
-		6834CE710106E57A74D117CE457FCF0B /* Release */ = {
+		52F974CDBF4A06EDF724338B02418272 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E4395BEFA9F446BED84E026EC3406D4 /* Pods-iOS-Check-Permission_Tests.release.xcconfig */;
+			baseConfigurationReference = FA1CB8C1E5B57D06847833714527E944 /* iOS-Check-Permission.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = iOSCheckPermission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5A585041E3E3397AA1F98BE6EAC0033E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1CB8C1E5B57D06847833714527E944 /* iOS-Check-Permission.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -584,27 +511,25 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-Check-Permission/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Pods-iOS-Check-Permission_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iOS_Check_Permission_Tests;
+				MODULEMAP_FILE = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iOS_Check_Permission;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7F04E30FAC804AD8774D2AA1694E2700 /* Release */ = {
+		6D1DC823908BFABC4DC4F5F0B6C345B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FE55F8A5D0C58F11793B09231E6DCDA /* Pods-iOS-Check-Permission_Example.release.xcconfig */;
+			baseConfigurationReference = AD1D7553B54783F1EE46A84C69AF33FC /* Pods-iOS-Check-Permission_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -617,12 +542,73 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Check-Permission_Example/Pods-iOS-Check-Permission_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_iOS_Check_Permission_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D5103FEB4D490DB3B8C40053C9F4FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6368E7DFF9F1C39C42063C5F2BAE4DDA /* Pods-iOS-Check-Permission_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Pods-iOS-Check-Permission_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_iOS_Check_Permission_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DCB723A0F3441DC85C110FC4858A4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30218B3341C4D72E6A5C08BD47E37151 /* Pods-iOS-Check-Permission_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Check-Permission_Tests/Pods-iOS-Check-Permission_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_iOS_Check_Permission_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -670,9 +656,36 @@
 			};
 			name = Debug;
 		};
-		B127417DD1A58E5B6CE82BAC6E6ED776 /* Debug */ = {
+		D8BDB611704CA178E6D3E98F0725E7F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAFF6948EE8BA51CC7EBC1A0702391BF /* Pods-iOS-Check-Permission_Example.debug.xcconfig */;
+			baseConfigurationReference = FA1CB8C1E5B57D06847833714527E944 /* iOS-Check-Permission.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-Check-Permission/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-Check-Permission/iOS-Check-Permission.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iOS_Check_Permission;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D907C18BA32D69E94914DB93642019F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2421881C0587FB49D63F24AE26D64E0F /* Pods-iOS-Check-Permission_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -685,6 +698,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Check-Permission_Example/Pods-iOS-Check-Permission_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -696,18 +710,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E722509EF0ADC599C66AD78A953A42D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C9AFC99BA2B348D6885CE55038467C2 /* iOS-Check-Permission-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = iOSCheckPermission;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -748,15 +750,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00B9B5E93C61AAAA6B8FDE4EE593D32D /* Build configuration list for PBXNativeTarget "iOS-Check-Permission-iOSCheckPermission" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E722509EF0ADC599C66AD78A953A42D3 /* Debug */,
-				3F579517A9FD44D5FC53623BA1677DF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -766,29 +759,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A8E5F7C34DFC487871B2EEFC96AE46A /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Tests" */ = {
+		77588A9539A1BDB76B7E68E1EB623E0D /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D4449F4EA809383FE22C1EA86339B3A /* Debug */,
-				6834CE710106E57A74D117CE457FCF0B /* Release */,
+				D907C18BA32D69E94914DB93642019F2 /* Debug */,
+				6D1DC823908BFABC4DC4F5F0B6C345B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E21F1A94F382AA2169F4B0ED348ACF5F /* Build configuration list for PBXNativeTarget "iOS-Check-Permission" */ = {
+		7E728419C8005CB40940C1CD77EAB87A /* Build configuration list for PBXNativeTarget "iOS-Check-Permission-iOSCheckPermission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17554579467AFC9E5DD80EDE080665C9 /* Debug */,
-				201ABEF69E2CCC7ADC8D35D8806AA748 /* Release */,
+				52F974CDBF4A06EDF724338B02418272 /* Debug */,
+				489B48F553705C3D74CCC7A2F95CB1AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED32C9806C85F5C4CDE38538B0D00586 /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Example" */ = {
+		DE7E78EC0E3D204C927B1FC11C8A62EA /* Build configuration list for PBXNativeTarget "Pods-iOS-Check-Permission_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B127417DD1A58E5B6CE82BAC6E6ED776 /* Debug */,
-				7F04E30FAC804AD8774D2AA1694E2700 /* Release */,
+				6D5103FEB4D490DB3B8C40053C9F4FFA /* Debug */,
+				9DCB723A0F3441DC85C110FC4858A4AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FC8C63717ECD630B8E45F844211F0C /* Build configuration list for PBXNativeTarget "iOS-Check-Permission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A585041E3E3397AA1F98BE6EAC0033E /* Debug */,
+				D8BDB611704CA178E6D3E98F0725E7F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
