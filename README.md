@@ -16,7 +16,7 @@ With this library you can request permission from camera features, reminders, ga
 iOS 8 or higher
 ```
 
-<img src="http://i.giflike.com/FKLOTzK.gif">
+<img src="ios-check-permission.gif">
 
 #See more on Youtube video:
 
