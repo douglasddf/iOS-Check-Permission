@@ -13,7 +13,7 @@ With this library you can request permission from camera features, reminders, ga
 ## Requirements
 
 ```ruby
-iOS 8 or higher
+iOS 8 or higher (currently in Objective-C)
 ```
 
 <img src="ios-check-permission.gif">
@@ -24,7 +24,6 @@ iOS 8 or higher
 
 <a href="https://www.youtube.com/embed/JxdlaEp6dC0"><img src="screenshot3.png" width="800"></a>
 
-<img src="screenshot01.png" width="400">
 
 Requests permission to access the iOS (Calendar, Reminder, Gallery and Location), with
  option of receive the notification of the status not determined until receive the user's permission.
