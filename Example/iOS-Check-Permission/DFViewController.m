@@ -142,28 +142,39 @@
     
     dispatch_async(dispatch_get_main_queue(), ^{
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:owner ? @"Permission denied" : @"Permission granted"
-                                                        message:text
-                                                       delegate:owner
-                                              cancelButtonTitle:owner ? @"Cancel" : @"Ok"
-                                              otherButtonTitles:owner ? @"Settings" : nil,
-                              nil];
-        [alert show];
+        
+        UIAlertController* alert = [UIAlertController alertControllerWithTitle:owner ? @"Permission denied" : @"Permission granted"
+                                                                       message:text
+                                                                preferredStyle:UIAlertControllerStyleAlert];
+        
+        
+        UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:owner ? @"Cancel" : @"Ok"
+                                                                style:UIAlertActionStyleDefault
+                                                              handler:^(UIAlertAction * action) {}];
+        
+        
+        
+        if (owner) {
+            
+            UIAlertAction* otherAction = [UIAlertAction actionWithTitle:@"Settings"
+                                                                  style:UIAlertActionStyleDefault
+                                                                handler:
+                                          ^(UIAlertAction * action) {
+                                              
+                                              // open settings
+                                              [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+                                          }];
+            [alert addAction:otherAction];
+        }
+        
+        
+        [alert addAction:defaultAction];
+        [self presentViewController:alert animated:YES completion:nil];
         
     });
 }
 
 
-#pragma mark <UIAlertViewDelegate>
-
-// Called when a button is clicked. The view will be automatically dismissed after this call returns
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    
-    if (buttonIndex > 0) {
-        // open settings
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-    }
-}
 
 #pragma mark <CLLocationManagerDelegate>
 
